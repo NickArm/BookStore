@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#768912;float:none;margin:0;padding:0;}
+a img{border:0px;float:left;}
+hr{float:left;width:700px;color:#395705;border:0;margin:0;}
+div{float:left;margin:0;padding:0;}
+h3, h6{float:left;padding:0;vertical-align:baseline;}
+h6, h6 a{color:#777777;margin:13px 5px 0 10px;line-height:px}
+h3, h3 a{line-height:25px;margin:5px 5px 0 0;color:#000000;}
+h3 a, h6 a{text-decoration:none;}
+h3 a:hover, h6 a:hover{color:#e9e9ff;}
+h6.moreinfo{float:right;margin-bottom:10px;}
+h1{width:530px;float:left;background:#562903;margin:10px 0 0 0px;}
+#container{background:#395705;width:950px;margin:auto;float:none}
+#header{background:url("headimage.jpg") no-repeat;width:950px;height:180px;}
+#maincontainer{background:#ffeeee;width:950px;}
+#sidebar{width:200px;height:130px;float:left;margin:0 20px 60px 0;}
+#screen{float:left;width:720px;padding:10px 0;}
+.product, .productview{background:#ddccdd;width:348px;float:left;margin:10px 10px 0 0;border:1px solid #542198}
+.productview{width:710px;}
+.proddescr{width:290px;}
+.productlabel{width:60px;}
+.productlabelvalue{width:200px;}
+p.productlabelvalue{width:600px;padding:10px 35px 0 75px;}
+.icons{width:48px;float:right;padding:5px;}
+.icons img{margin-bottom:10px}
+.descrition{width:710px}

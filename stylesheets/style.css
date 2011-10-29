@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****************************
+Genika
+******************************/
+body{background:#768912;float:none;margin:0;padding:0;}
+a img{border:0px;float:left;}
+hr{float:left;width:700px;color:#395705;border:0;margin:0 0 30px 0;}
+h2{width:700px;float:left;background:#654982;padding:0 0 0 10px;margin:10px 0 0 0;border-top:1px solid #ff0000;border-bottom:1px solid #ff0000}
+h4{margin:0 auto;padding:0;text-align:center}
+h3, h6{float:left;padding:0;vertical-align:baseline;}
+h6, h6 a{color:#777777;margin:13px 5px 0 10px;line-height:px}
+h3, h3 a{line-height:25px;margin:5px 5px 0 0;color:#000000;}
+h3 a, h6 a{text-decoration:none;}
+h3 a:hover, h6 a:hover{color:#e9e9ff;}
+h6.moreinfo{float:right;margin-bottom:10px;}
+div{float:left;margin:0;padding:0;}
+#container{width:950px;margin:auto;float:none}
+#header{background:url("../images/headimage.jpg") no-repeat #f56512;width:950px;height:205px;margin:0 0 10px 0}
+#mainContent{background:#ffeeee;width:950px;}
+#sidebar{width:200px;height:130px;float:left;margin:0 20px 60px 0;}
+#screen{margin:0 auto;float:none;width:720px;padding:10px 0;}
+#footer{width:950px;background:#234567;margin:10px 0;padding:0;line-height:30px;color:#ffffff;font-weight:bold;}
+
+/*****************************
+header
+******************************/
+#searchDiv{float:right;margin-top:140px}
+#menubar{width:950px;line-height:10px;margin-top:10px}
+#menubar ul{margin:0;padding:0;z-index:30}
+#menubar li{margin:0;padding:0;list-style:none;float:left;font:bold 15px arial;width:190px}
+#menubar li a{display:block;margin:0;padding:4px 10px;background:#234567;color: #FFF;text-align:center;text-decoration:none}
+#menubar li a:hover{background:#343434}
+#menubar div{position:absolute;visibility:hidden;margin:0;padding:0;background:#EAEBD8;border: 1px solid #5970B2;width:190px}
+#menubar div a{position:relative;display:block;margin:0;padding:5px 10px;width:auto;white-space:nowrap;text-align:left;text-decoration: none;background:#00066;color:#FFFFFF;font:15px arial}
+#menubar div a:hover{background:#49A3FF;color:#FFF}
+
+/*****************************
+container
+******************************/
+
+
+
+/*****************************
+sidebar
+******************************/
+
+
+/*****************************
+screen
+******************************/
+.product, .productview{background:#ddccdd;width:348px;float:left;margin:10px 10px 0 0;border:1px solid #542198}
+.productview{width:710px;}
+.proddescr{width:290px;}
+.productlabel{width:60px;}
+.productlabelvalue{width:200px;}
+p.productlabelvalue{width:600px;padding:10px 35px 0 75px;}
+.icons{width:48px;float:right;padding:5px;}
+.icons img{margin-bottom:10px}
+.descrition{width:710px}
+#page{float:right;text-align:right;width:720px}
+#page a{text-decoration:none;color:#542198;margin-right:3px}
+#page a:hover{color:#777777;}
+#loginForm{width:235px;margin:auto}
+#regForm{width:450px;margin:auto}
+#regForm table, #regForm table td{border:0}
+#regForm table td{margin:35px;line-height:30px}
+#regForm input{border:1px solid #eedddd;}
+#regForm a{text-decoration:none;color:#000000}
+#regForm a:hover{color:#ff0000}
+
+/*****************************
+footer
+******************************/
+#footer p{float:right;margin:0 20px}
+#footer a{color:#ffffff;text-decoration:none}
+#footer a:hover{color:#303030}

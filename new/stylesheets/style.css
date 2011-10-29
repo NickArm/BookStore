@@ -1,0 +1,113 @@
+@charset "utf-8";
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #69F;
+	margin: 5px; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 5px;
+	text-align: center;
+	color: #000000;
+}
+.oneColLiqCtrHdr #container {
+	width: 850px;  /* this will create a container 80% of the browser width */
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 0px;/*exei sxesi me to sxedio */
+	border: 2px solid #999999;
+	text-align: center; /* this overrides the text-align: center on the body element. */
+}
+.oneColLiqCtrHdr #header {
+	background: #DDDDDD;
+	padding: 0 0px 0 0px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+}
+.oneColLiqCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 0px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.oneColLiqCtrHdr #sidebar1 {
+background:red none repeat scroll 0 0;
+float:left;
+padding:15px 10px 12px 20px;
+width:200px;
+margin:0px 0px;
+}
+.oneColLiqCtrHdr #mainContent {
+	padding: 60px 0 40px 0; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+	margin: auto 10px;
+}
+#loginForm{
+	width:255px;
+	margin:0 auto;
+	}
+#regForm{
+	width:450px;
+	margin:0 auto;
+	padding: 50px 0 40px 0;
+	}
+#usereditForm {
+	margin:0 auto;
+	padding:10px 0 30px 150px;
+	width:450px;
+}
+.oneColLiqCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+} 
+.oneColLiqCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 10px; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	color:#096;
+}
+.oneColLiqCtrHdr #footer:hover
+{	background: #343434}
+
+
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30;}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 15px arial}
+
+#sddm li a
+{	display: block;
+	margin: 0 0px 0 0;
+	padding: 6px 0px;
+	width: 170px;
+	background: #234567;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none}
+
+#sddm li a:hover
+{	background: #343434}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+                width: 169px;
+		margin: 0;
+		padding: 6px 0px;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #000066;
+		color: #FFFFFF;
+		font: 15px arial}
+
+	#sddm div a:hover
+	{	background: #49A3FF;
+		color: #FFFFFF}
